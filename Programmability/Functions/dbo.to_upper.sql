@@ -1,0 +1,11 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+  
+CREATE FUNCTION [dbo].[to_upper] (@a my_type)  
+RETURNS my_type  
+WITH ENCRYPTION  
+AS  
+BEGIN  
+RETURN upper(@a)  
+END;  
+GO
