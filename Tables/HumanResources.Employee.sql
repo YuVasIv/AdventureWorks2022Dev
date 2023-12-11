@@ -4,7 +4,7 @@
   [LoginID] [nvarchar](256) NOT NULL,
   [OrganizationNode] [hierarchyid] NULL,
   [OrganizationLevel] AS ([OrganizationNode].[GetLevel]()),
-  [JobTitle] [nvarchar](50) NOT NULL,
+  [JobTitle] [nvarchar](45) NOT NULL,
   [BirthDate] [date] NOT NULL,
   [MaritalStatus] [nchar](1) NOT NULL,
   [Gender] [nchar](1) NOT NULL,
